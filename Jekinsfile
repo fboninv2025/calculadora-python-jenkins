@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     triggers {
-        cron('TZ=America/Bogota\n45 9 * * *')
+        cron('TZ=America/Bogota\n50 9 * * *')
     }
 
     stages {
